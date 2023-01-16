@@ -1,12 +1,12 @@
-# NNI_Pruning
+# Pruning Model Optimizaiton using NNI
 
 ## How to run the code 
 
-- Create an conda environment using the requirement.txt
-- conda activate PRUN
-- Run the python3 NNI_Pruning.py
+- Create an conda environment using the requirement.txt file
+- conda activate env_name
+- python3 NNI_Pruning.py
 
-## what happend in the code.
+## What happens in the code.
 
 - First the code trains a network with MNIST data.
 - Then we save the model pth file for further comparision with the pruned model.
